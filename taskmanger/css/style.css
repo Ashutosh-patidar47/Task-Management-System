@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-image:url("../image/task.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+#home-page{
+    
+    position:absolute;
+    left: 34%;
+    top:30%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:25px;
+    height: 20vh;
+    width: 33vw;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px black;
+}
+#login-home{
+    position:absolute;
+    left: 38%;
+    top:30%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:25px;
+    height: 35vh;
+    width: 25vw;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px black;
+}
+#register-home{
+
+    position:absolute;
+    left: 38%;
+    top:20%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:25px;
+    height: 53vh;
+    width: 25vw;
+    border-radius: 40px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px black;
+}
+
+#head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 22, 22);
+    
+}
+
+#title{
+    text-align: center;
+    background-color:rgb(72,71,71);
+    height: 50px;
+    width: 100%;
+    padding-bottom: 2px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px rgb(86, 82, 75);
+}
+
+#detail{
+    background-color:bisque;
+    display:inline-block;
+    position:absolute;
+    left:75%;
+    border-radius: 10px;
+    height: 45px;
+    width: 25%;
+    padding-left:10px;
+    font-weight: 750;
+    font-family: cursive;
+}
+h1{
+    font-weight:1000;
+    color: azure;
+    box-shadow: 0 0 35px rgb(23, 23, 23);
+}
+h3{
+    font-size: 24px;
+    font-weight: 800;
+    color:rgb(12, 12, 12);
+    
+}
+#headcss{
+    font-weight: 900;
+    font-size:30px;
+
+}
+#leftbar{
+    position:sticky;
+    top:0;
+    left:0;
+    bottom:0;
+    width:180px;
+    height: 90vh;
+    padding:0 .9rem;
+    color: white;
+    overflow:hidden;
+    transition: all 0.5s linear;
+    background-color:rgb(72, 71, 71);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px rgb(26, 26, 24);
+}
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding:0;
+}
+.menu a{
+    color:rgb(238, 234, 234);
+    font-size: 17px;
+    text-decoration:none;
+    display:flex;
+    align-items: center;
+    gap:1.8rem;
+    font-weight:800;
+    font-size:large;
+}
+
+.menu li:hover,
+.active{
+    background:#f47b0358;
+    text-decoration: underline;
+}
+.menu li{
+    padding: 1rem;
+    margin: 4px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.menu a{
+    color:aliceblue;
+    font-size: 14px;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    gap:1.8rem;
+    font-weight: 600;
+}
+#rightbar{
+    padding:35px;
+    height: 75vh;
+    width: 85vw;
+    display: inline-block;
+    font-size: 19.5px;
+    font-weight: 500;
+
+}
+
+#logout{
+    position:absolute;
+    bottom: -70px;
+}
+
+#header{
+    background-color:white;
+}
+#create-task{
+    height: 110%;
+    padding:20px;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px rgb(26, 26, 24);
+}
+#manage{
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px rgb(26, 26, 24);
+    font-weight: 500;
+    
+}
+#button{
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 40px rgb(26, 26, 24);
+    font-weight: 500;
+}
