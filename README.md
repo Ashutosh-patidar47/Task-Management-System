@@ -4,7 +4,7 @@
 
     -> start the server and mysql
 
-    -> open phpmyadmin create the create the tables 
+    -> open phpmyadmin create  the tables 
 
     -> open chrome type the url localhost/taskmanger
 
